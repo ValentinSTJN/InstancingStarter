@@ -36,6 +36,18 @@ bounce = 0.5
 script = ExtResource("1")
 Ball = ExtResource("2")
 
+[node name="Label" type="Label" parent="." unique_id=1638977809]
+offset_left = 472.0
+offset_top = 613.0
+offset_right = 625.0005
+offset_bottom = 647.0
+theme_override_font_sizes/font_size = 24
+text = "Label le Bel"
+uppercase = true
+
+[node name="Ball" parent="." unique_id=1327102618 instance=ExtResource("2")]
+position = Vector2(524, 0)
+
 [node name="WallContainer" type="Node" parent="." unique_id=2056109055]
 
 [node name="Wall1" type="StaticBody2D" parent="WallContainer" unique_id=1718855055]
